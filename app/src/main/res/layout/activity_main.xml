@@ -10,8 +10,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="swarm_app_3.ehb.com.contour.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginTop="105dp"
+        android:onClick="goToMaps"
+        android:id="@+id/button2" />
 </RelativeLayout>
