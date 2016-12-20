@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
     public void goToMaps(View view) {
         Intent toMaps = new Intent(this, MapsActivity.class);
         startActivity(toMaps);
+        //Test
     }
 }
